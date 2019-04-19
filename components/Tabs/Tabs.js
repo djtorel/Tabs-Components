@@ -62,3 +62,5 @@ class TabItem {
 links = document
   .querySelectorAll('.tabs-link')
   .forEach(element => new TabLink(element));
+
+// mvp complete
